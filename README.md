@@ -1,5 +1,5 @@
 # ABOUT
-This is a C++ demonstration of the banker's algorithm as used for deadlock avoidance. A detailed description of how the program works is given in [Description.md](Description.md).
+This is a C++ demonstration of the banker's algorithm as used for deadlock avoidance. It takes a system state of a set of processes' allocated resources, their maximum resources, and the current resources available as input, and it prints whether the system is in a safe state and a safe sequence for process execution to avoid deadlock if so. A detailed description of how the program works is given in [Description.md](Description.md).
 
 # HOW TO USE
 In a Linux environment with g++ installed, in a terminal in a directory containing the banker.cpp and input.txt files, the program may be compiled by running the following command:
