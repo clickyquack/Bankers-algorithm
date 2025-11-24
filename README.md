@@ -16,9 +16,15 @@ It operates by first initializing a "Work" vector to the available vector's stat
 The algorithm then tries to place each process in a safe sequence to execute them to avoid deadlock. The algorithm tries to find a process not yet marked as finished in Finish for which its resource needs in Need do not exceed the current limits stored in Work. If it finds one, the process is marked as finished and its allocated resources are added to Work for the next processes to potentially use, and it is placed in the safe sequence. It repeats this process until either all processes are marked finished (in which case the function returns true), or until it is unable to find another unfinished process with less resource needs than what would be available to it (in which case the function returns false).
 ## Result
 If the state given in input.txt is safe, the program will print:
-```The system is in a safe state."
-Safe sequence: ```
+```
+The system is in a safe state.
+Safe sequence:
+```
 followed by the safe sequence it found. For the example state given, it would print:
-`Safe sequence: P3 -> P1 -> P0 -> P2 -> P4`
+```
+Safe sequence: P3 -> P1 -> P0 -> P2 -> P4
+```
 If the state is not safe, the program will print:
-`The system is not in a safe state.`
+```
+The system is not in a safe state.
+```
