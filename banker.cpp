@@ -89,7 +89,8 @@ bool bankersAlgorithm(const vector<int>& available,
             }
         }
         
-        // If no process can be satisfied, system is in unsafe state
+        // If no unfinished process can be satisfied,
+        // System is in unsafe state
         if (!found) {
             return false;
         }
@@ -131,4 +132,5 @@ int main() {
     } else {
         cout << "The system is not in a safe state." << endl;
     }
+
 }
