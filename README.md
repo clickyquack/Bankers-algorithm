@@ -22,4 +22,4 @@ For the default example given in [input.txt](input.txt), program usage and outpu
 
 If the input is edited to give a system of unsafe state, program usage and output should instead look like this:
 
-![Unsafe](/screenshots/safe.png)
+![Unsafe](/screenshots/unsafe.png)
