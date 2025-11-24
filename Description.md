@@ -20,7 +20,7 @@ If the state given in input.txt is safe, the program will print:
 The system is in a safe state.
 Safe sequence:
 ```
-followed by the safe sequence it found. For the example state given, it would print:
+followed by the safe sequence it found. For the default example state given, it would print:
 ```
 Safe sequence: P3 -> P1 -> P0 -> P2 -> P4
 ```
