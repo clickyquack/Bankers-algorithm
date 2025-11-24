@@ -20,6 +20,8 @@ For the default example given in [input.txt](input.txt), program usage and outpu
 
 ![Safe](/screenshots/safe.png)
 
-If the input is edited to give a system of unsafe state, program usage and output should instead look like this:
+In other safe states, the program should give similar output but possibly a different safe sequence.
+
+If an unsafe state is instead given, program usage and output should instead look like this:
 
 ![Unsafe](/screenshots/unsafe.png)
