@@ -1,5 +1,5 @@
 # Banker's Algorithm
-This is a C++ demonstration of the banker's algorithm as used for deadlock avoidance. In the default example used, there are 5 processes and 3 resource types. The default state is a safe state with a safe sequence of `P3 -> P1 -> P0 -> P2 -> P4`.
+This is a C++ demonstration of the banker's algorithm as used for deadlock avoidance. In the example used, there are 5 processes and 3 resource types. The default state is a safe state with a safe sequence of `P3 -> P1 -> P0 -> P2 -> P4`.
 ## Data used by algorithm
 - The "Available" vector (for which the implementation uses a vector of integers of size 3) holds the number of available instances of each resource type. In this case, length 3.
 - The "Allocation" matrix (for which the implementation uses a size 5 vector of size 3 vectors of integers) holds the number of instances of each resource type currently being allocated to each process. In this case, the matrix size is 5x3
